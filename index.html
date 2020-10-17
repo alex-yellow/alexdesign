@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Веб-дизайн</title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">AlexDesign</div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Блог</a>
+                <a class="nav__link" href="#" data-scroll="#works">Наши работы</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+                <a class="nav__link" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a class="nav__link" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </nav>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle">Креативные технологии</h2>
+                <h1 class="intro__title">Веб-дизайна</h1>
+
+                <a class="btn" href="#">Узнать больше</a>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item active">
+                        <span class="slider__num">01</span>
+                        <span class="slider__text">Главная</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">02</span>
+                        <span class="slider__text">Наши работы</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">03</span>
+                        <span class="slider__text">О нас</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">04</span>
+                        <span class="slider__text">Контакты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /.intro -->
+
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Что мы делаем</h3>
+                <h2 class="section__title">Креативный дизайн для интернета</h2>
+                <div class="section__text">
+                    <p>Мы занимаемся дизайном и разработкой сайтов уже более 10 лет. За это время нами осуществлено более 100 проектов. У нас работают только профессионалы своего дела.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/1.jpg" alt="">
+                        </div>
+                        <div class="card__text">команда профессионалов</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/2.jpg" alt="">
+                        </div>
+                        <div class="card__text">команда профессионалов</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/3.jpg" alt="">
+                        </div>
+                        <div class="card__text">команда профессионалов</div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Statistics -->
+    <div class="statistics">
+        <div class="container">
+
+            <div class="stat">
+                <div class="stat__item">
+                    <div class="stat__count">125</div>
+                    <div class="stat__text">дизайн-проектов</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">125</div>
+                    <div class="stat__text">довольных клиентов</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">15</div>
+                    <div class="stat__text">премий  рунета</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">199</div>
+                    <div class="stat__text">логотипов</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">25</div>
+                    <div class="stat__text">профессионалов</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Для всех устройств</h3>
+                <h2 class="section__title">Уникальный дизайн</h2>
+            </div>
+
+            <div class="services">
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/photography.png" alt="">
+
+                    <div class="services__title">Четкие фото</div>
+                    <div class="services__text">Редактируем и исправляем любые фотографии.</div>
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/webdesign.png" alt="">
+
+                    <div class="services__title">Веб-дизайн</div>
+                    <div class="services__text">Команда профессионалов в короткие сроки выполнит Ваш заказ.</div>
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/creativity.png" alt="">
+
+                    <div class="services__title">Креатив</div>
+                    <div class="services__text">Мы найдем нестандартные решения для вашего проекта.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/seo.png" alt="">
+
+                    <div class="services__title">seo</div>
+                    <div class="services__text">Оптимизация и вывод сайта втоп выдачи поисковых систем.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/css-html.png" alt="">
+
+                    <div class="services__title">Css/Html</div>
+                    <div class="services__text">Верстка сайтов любого уровня сложности.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/digital.png" alt="">
+
+                    <div class="services__title">Веб-разработка</div>
+                    <div class="services__text">Установка сайтов на популярные CMS системы.</div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Devices -->
+    <section class="section  section--devices">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Для всех устройств</h3>
+                <h2 class="section__title">Уникальный дизайн</h2>
+            </div>
+
+            <div class="devices">
+                <img class="devices__item" src="assets/images/ipad.png" alt="">
+                <img class="devices__item  devices__item--iphone" src="assets/images/iphone.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Wedo -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Услуги</h3>
+                <h2 class="section__title">Что мы делаем</h2>
+                <div class="section__text">
+                    <p>Мы занимаемся дизайном и разработкой сайтов уже более 10 лет. За это время нами осуществлено более 100 проектов. У нас работают только профессионалы своего дела.</p>
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo__item">
+                    <img class="wedo__img" src="assets/images/wedo.jpg" alt="">
+                </div>
+
+                <div class="wedo__item">
+
+                    <div class="accordion">
+                        <div class="accordion__item" data-collapse="#wedo_1">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/photography.png" alt="">
+                                <div class="accordion__title">Photography</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_1">
+                                <p>Лучшее определение креативности — сочетание изобретательности, вдохновения и чувственного восприятия. Нет в мире камеры, которая самостоятельно делает вау-кадр, определяет интересный объект для съемки и сигнализирует о восхитительной композиции. Все эти задачи — часть необыкновенного мира создания фотографии, и вся ответственность за результат лежит исключительно на фотографе.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item active" data-collapse="#wedo_2">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/creativity.png" alt="">
+                                <div class="accordion__title">Creativity</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_2">
+                                <p>Лучшее определение креативности — сочетание изобретательности, вдохновения и чувственного восприятия. Нет в мире камеры, которая самостоятельно делает вау-кадр, определяет интересный объект для съемки и сигнализирует о восхитительной композиции. Все эти задачи — часть необыкновенного мира создания фотографии, и вся ответственность за результат лежит исключительно на фотографе.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_3">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/webdesign.png" alt="">
+                                <div class="accordion__title">web design</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_3">
+                                <p>Лучшее определение креативности — сочетание изобретательности, вдохновения и чувственного восприятия. Нет в мире камеры, которая самостоятельно делает вау-кадр, определяет интересный объект для съемки и сигнализирует о восхитительной композиции. Все эти задачи — часть необыкновенного мира создания фотографии, и вся ответственность за результат лежит исключительно на фотографе.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.accordion -->
+
+                </div><!-- /.wedo__item -->
+            </div><!-- /.wedo -->
+
+        </div>
+    </section>
+
+
+    <!-- Reviews 1 -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt="">
+                            <div class="reviews__text">“Для нашей команды дизайн не просто работа- это стиль жизни!”</div>
+                            <div class="reviews__author">Алексей Желтов</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt="">
+                            <div class="reviews__text">“Для нашей команды дизайн не просто работа- это стиль жизни!”</div>
+                            <div class="reviews__author">Алексей Желтов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Team -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Кто мы такие</h3>
+                <h2 class="section__title">Познакомьтесь с нашей командой</h2>
+                <div class="section__text">
+                    <p>Более 10 лет мы разрабатываем и поддерживаем сайты. Среди наших клиентов дистрибьюторы-поставщики импортного оборудования, компании работающие в b2b сегменте, также интернет-магазины <br> и  специализированные порталы.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/team/1.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">Иван протасов</div>
+                        <div class="card__prof">Графический дизайнер</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/team/2.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">Александр семенов</div>
+                        <div class="card__prof">UI/UX дизайнер</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/team/3.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">Михаил петров </div>
+                        <div class="card__prof">Веб - разработчик</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+            </div><!-- /.card -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Logos -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="logo">
+                <div class="logo__item">
+                    <img class="logo__img" src="assets/images/logo1.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Works -->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Что мы делаем</h3>
+                <h2 class="section__title">некоторые из наших работ</h2>
+                <div class="section__text">
+                    <p>Разрабатываем, поддерживаем сайты. Управляем рекламными кампаниями в интернете, используя различные каналы и добиваемся KPI. Наши специалисты имеют большой опыт в SEO продвижении и PPC. Не прекращаем учиться и получайть новые знание в интернет-маркетинге и web разработке.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/1.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/2.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/3.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/4.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/5.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/6.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/7.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Креативный дизайн</div>
+                        <div class="works__text">от профессионалов</div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.works -->
+    </section>
+
+
+    <!-- Reviews 2 -->
+    <div class="section">
+        <div class="container">
+
+            <div class="reviews">
+
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/man.png" alt="">
+                            <div class="reviews__text">“Наша команда профессионалов выполнит работу максимально качественно с минимальными затратами для вас. Используем лучшие практикии современные web технологии.”</div>
+                            <div class="reviews__author">Антон Власов</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt="">
+                            <div class="reviews__text">“Наша команда профессионалов выполнит работу максимально качественно с минимальными затратами для вас. Используем лучшие практикии современные web технологии.”</div>
+                            <div class="reviews__author">Антон Власов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Clients -->
+    <section class="section  section--clients">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Счастливые клиенты</h3>
+                <h2 class="section__title">Что о нас говорят </h2>
+            </div>
+
+            <div class="clients">
+                <div class="clients__item">
+                    
+                    <div class="clients__content">
+                        <div class="clients__name">Валерий иванов</div>
+                        <div class="clients__prof">Графический дизайн</div>
+                        <div class="clients__text"> Понравилось действительно всё абсолютно. Сама студия, чистота, прошла всю студию и свободные комнаты, носки остались идеально чистыми )))))) админы хорошо относятся и отношение и студия вот что важно ...... поработаю и потом дополню отзыв .</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    
+                    <div class="clients__content">
+                        <div class="clients__name">Николай караваев</div>
+                        <div class="clients__prof">Графический дизайн</div>
+                        <div class="clients__text">Очень интересная задумка, думаю, что студия перспективна. Поможет действительно грамотным людям донести до массы то, что они хотят. Социальное продвижение - это старт любого успешного дела или бизнеса. </div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    
+                    <div class="clients__content">
+                        <div class="clients__name">Иван синицын </div>
+                        <div class="clients__prof">Графический дизайн</div>
+                        <div class="clients__text">С компанией AlexDesign сотрудничаем не один год. Впервые мы обратились за созданием сайта, в итоге нам создали сайт на Битриксе и сразу заключили договор на развитие и продвижение сайта. Желаемые результаты начали проявляться уже в самом начале.</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    
+                    <div class="clients__content">
+                        <div class="clients__name">Михаил Петров</div>
+                        <div class="clients__prof">Графический дизайн</div>
+                        <div class="clients__text">Cделали очень быстро сайт! Доволен ценой и качеством, приносит новых клиентов ежедневно! Спасибо.</div>
+                    </div>
+                </div>
+            </div><!-- /.clients -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Blog -->
+    <section class="section" id="blog">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Наши истории</h3>
+                <h2 class="section__title">Блог о веб-дизайне</h2>
+            </div>
+
+            <div class="blog">
+                <div class="blog__item">
+                	
+                    <div class="blog__header">
+                        <a href="#">
+                            <img class="blog__photo" src="assets/images/blog/1.jpg" alt="">
+                        </a>
+                        <div class="blog__date">
+                            <div class="blog__date-day">15</div>
+                            Feb
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                    	<div class="blog__content1">
+                        <div class="blog__title">
+                            <a href="#">Как найти фразы со статусом показов?</a>
+                        </div>
+                        <div class="blog__text">Статус «Мало показов» появился в Директе в начале 2017 года, породив множество споров, гипотез и объяснений в среде интернет-маркетологов. </div>
+                    </div>
+                    </div>
+                    
+                    <div class="blog__footer">
+                        <div class="blog-stat">
+                            <span class="blog-stat__item">
+                                <i class="far fa-eye"></i> 542
+                            </span>
+                            <span class="blog-stat__item">
+                                <i class="far fa-comment-dots"></i> 17
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                	<div class="blog__header">
+                        <a href="#">
+                            <img class="blog__photo" src="assets/images/blog/2.jpg" alt="">
+                        </a>
+                        <div class="blog__date">
+                            <div class="blog__date-day">14</div>
+                            Feb
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                    	<div class="blog__content2">
+                        <div class="blog__title">
+                            <a href="#">Смета на разработку сайта</a>
+                        </div>
+                        <div class="blog__text">Для более точной оценки трудозатрат и стоимости разработки сайта необходимо составлять подробную смету работ.</div>
+                    </div>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog-stat">
+                            <span class="blog-stat__item">
+                                <i class="far fa-eye"></i> 992
+                            </span>
+                            <span class="blog-stat__item">
+                                <i class="far fa-comment-dots"></i> 12
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                	
+                    <div class="blog__header">
+                        <a href="#">
+                            <img class="blog__photo" src="assets/images/blog/3.jpg" alt="">
+                        </a>
+                        <div class="blog__date">
+                            <div class="blog__date-day">12</div>
+                            Feb
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                    	<div class="blog__content3">
+                        <div class="blog__title">
+                            <a href="#">Мемы о контекстной рекламе</a>
+                        </div>
+                        <div class="blog__text">В данном посте собрано небольшое количество мемов о контекстной рекламе.</div>
+                    </div>
+                    </div>
+                    
+                    <div class="blog__footer">
+                        <div class="blog-stat">
+                            <span class="blog-stat__item">
+                                <i class="far fa-eye"></i> 1560
+                            </span>
+                            <span class="blog-stat__item">
+                                <i class="far fa-comment-dots"></i> 98
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.blog -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Map -->
+    <section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://goo.gl/maps/F8YpeCGqwrG2" target="_blank">Open Map</a>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__col  footer__col--first">
+                    <div class="footer__logo">AlexDesign</div>
+                    <div class="footer__text">AlexDesign  - это команда профессионалов организует эффективное продвижение бизнеса в интернете.
+ 					Сделаем лучше с меньшими затратами! 
+                    </div>
+
+                    <div class="footer__social">
+                        <div class="footer__social-header">
+                            <b>15k</b> подписчиков
+                        </div>
+                        <div class="footer__social-content">
+                            Войти из:
+                            <a href="#" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="subscribe" action="/" method="post">
+                        <input class="subscribe__input" type="email" name="name" placeholder="Ваш Email...">
+                        <button class="subscribe__btn" type="submit">подписаться</button>
+                    </form>
+                </div><!-- /.footer__col -->
+
+                <div class="footer__col  footer__col--second">
+                    <div class="footer__title">Блог</div>
+
+                    <div class="blogs">
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/images/blogs/1.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Разбираемся в типах сайтов. Полный список</a>
+                                <div class="blogs__date">Feb 9, 2020</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/images/blogs/2.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">CSS градиенты для веб дизайна. </a>
+                                <div class="blogs__date">Feb 9, 2020</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/images/blogs/3.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Минимализм в веб дизайне интернет магазинов. </a>
+                                <div class="blogs__date">Feb 9, 2020</div>
+                            </div>
+                        </div>
+                    </div><!-- /.blogs -->
+                </div>
+
+                <div class="footer__col  footer__col--third">
+                    <div class="footer__title">Инстаграм</div>
+
+                    <div class="instagram">
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/1.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/2.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/3.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/4.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/5.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/6.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/7.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/8.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="#" target="_blank">
+                            <img src="assets/images/instagram/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- /.footer__inner -->
+
+            <div class="copyright">
+                © 2020 AlexDesign free PSD template by <span>Alexey Jeltov</span> 
+            </div>
+
+        </div><!-- /.container -->
+    </footer>
+
+</div><!-- /.page -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
